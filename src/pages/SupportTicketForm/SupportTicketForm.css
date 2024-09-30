@@ -1,0 +1,99 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.custom-input {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: 2px solid gray;
+}
+
+.custom-input::placeholder {
+  color: gray;
+  opacity: 1;
+}
+
+.custom-input:focus {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: 2px solid orange;
+}
+
+.color-red {
+  color: rgb(166,7,7);
+}
+
+.text-gray {
+  color: rgb(174, 174, 174)
+}
+
+.btn-send {
+  border-radius: 20px;
+  border: 0px;
+}
+
+.enable-btn {
+  background-color: rgb(255, 159, 10)!important;
+}
+
+.disable-btn {
+  background-color: rgb(86,86,86)!important;
+}
+
+.disable-btn:hover {
+  cursor: default;
+  background-color: rgb(86,86,86)!important;
+}
+
+.radio-container {
+  border: 2px dashed gray;
+  border-radius: 4px;
+  padding: 21px;
+}
+
+.custom-radio {
+  accent-color: orange;
+}
+
+#bug {
+  border: 2px solid black;
+}
+
+#bug:checked {
+  background-color: orange;
+  border: 2px solid black;
+}
+
+#general {
+  border: 2px solid black;
+}
+
+#general:checked {
+  background-color: orange;
+  border: 2px solid black;
+}
+
+.show {
+  display: block;
+  width: 700px;
+}
+
+.hide {
+  display: none;
+}
+
+.thanks-title {
+  margin-top: 100px;
+  font-weight: bold;
+  color: orange;
+  font-size: 20px;
+}
+
+.ticket-number {
+  color: gray;
+  margin-bottom: 100px;
+}

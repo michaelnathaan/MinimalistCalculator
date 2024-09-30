@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculator {
+  padding: 20px;
+  max-width: 320px;
+}
+
+.buttons {
+  text-align: center;
+  background-color: black;
+  padding-bottom: 20px;
+}
+
+.custom-button {
+  width: 50px;
+  height: 50px;
+  padding: 0px !important;
+  font-size: 22px !important;
+  background-color: rgb(165, 165, 165)!important;
+  color: white;
+  border: 0px !important;
+}
+
+.custom-button:hover {
+  background-color: rgb(100, 100, 100)!important;
+}
+
+.custom-button-orange {
+  background-color: rgb(255, 159, 10)!important;
+}
+
+.custom-button-orange:hover {
+  background-color: rgb(121, 76, 10)!important;
+}
+
+.custom-button-brown {
+  background-color: rgb(136, 97, 62)!important;
+}
+
+.custom-button-brown:hover {
+  background-color: rgb(93, 66, 42)!important;
+}
+
+.custom-button-wider {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+.result {
+  font-size: 40px;
+  color: white;
+  text-align: right;
+  vertical-align: bottom;
+  align-items: end;
+  margin-top: 10px;
+}
+
+.bg-grey {
+  background-color: rgb(85, 85, 85);
+  border: 0px;
+  padding: 0px;
+}
+
+.history {
+  font-size: 22px;
+  color: white;
+}
+
+.scrollable-history {
+  max-height: 145px;
+  overflow-y: auto;
+}
+
+.top-container {
+  height: 150px;
+}
